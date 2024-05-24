@@ -148,7 +148,7 @@ public class MainActivity extends AppCompatActivity {
             mPresentation = null;
         }
 
-        // 显示resentation
+        // Show the presentation
         if (mPresentation == null && presentationDisplay != null) {
             Log.i(TAG, "Showing presentation on display: " + presentationDisplay);
             mPresentation = new MyPresentation(this, presentationDisplay);
