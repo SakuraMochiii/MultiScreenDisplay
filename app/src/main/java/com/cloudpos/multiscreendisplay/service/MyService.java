@@ -10,7 +10,7 @@ import android.util.Log;
 import android.view.Display;
 import android.view.WindowManager;
 
-import androidx.annotation.Nullable;
+
 
 import com.cloudpos.multiscreendisplay.MyPresentation;
 
@@ -116,7 +116,7 @@ public class MyService extends Service {
         super.onDestroy();
     }
 
-    @Nullable
+
     @Override
     public IBinder onBind(Intent intent) {
 
